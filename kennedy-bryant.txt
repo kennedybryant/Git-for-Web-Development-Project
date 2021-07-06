@@ -1,0 +1,122 @@
+https://codepen.io/kennedybryant/pen/mdmPypm
+
+1. What is Semantic HTML?
+	 Semantic HTML are elements that have names that describe their purpose.
+
+2. What is HTML used for?
+	HTML is used for telling the browser how to display webpage content.
+	
+3. What is an attribute and where do we put it?
+	Attributes give more information about the element, and they are found in the start tag of that element.
+	 
+4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is used to add emphasis to most important information such as a website title. It should be used once on the page.
+	
+5. Name two tags that have required attributes
+	text & checkbox
+	
+6. What do we put in the head of our HTML document?
+	title, meta data, embedded css, embedded javascript
+	 
+7. What is an id?
+	Attribute that gives an element a name unique to that one instance.
+	 
+8. What elements can I add an id to?
+	Any type of element, but it can only be used once.
+	 
+9. How many times can I use the same id on a page?
+	Once
+	 
+10. What is a class?
+	An attribute that is used to name an element.
+	 
+11. What elements can I add a class to?
+	Any type of element
+	 
+12. How many times can I use the same class on a page?
+	Multiple
+	 
+13. How do I get my link to open in a new tab?
+	Add target="_blank" to the start tag
+	
+14. What is the alt attribute in the image tag used for?
+	To describe images for screenreader or when the image is broken.
+	 
+15. How do I reference an id?
+	# before id name (ex: #idName)
+	
+16. What is the difference between a section and a div
+	A section groups content that is related while div just groups content
+	
+17. What is CSS used for?
+	 CSS is used to add styles to a webpage.
+
+18. How to we select an element? Example - every h2 on the page
+	h2 {}
+	
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class can be used in multiple instances in a page. An id can only be used once in a page. A single class name could be given to every image in the page's content to format them the same way, but only one of those pictures could have an id of .image1 to increase the size of that image to draw attention to it.
+	
+20. How do we select classes in CSS?
+	A period. (ex: .className)
+	
+21. How do we select a p element with a single class of “human””?
+	.human p {}
+	
+22. What is a parent child selector? When would this be useful? 
+	Parent child selectors select all elements (child) within another element (parent). This is useful when you want to change all of the elements contained in another element.
+	
+23. How do you select all links within a div with the class of sidebar?
+	.class div a{}
+
+24. What is a pseudo selector?
+	A keyword that determine how an element will respond when selected in a specific way.
+
+25. What do we use the change the spacing between lines?
+	css line-height property
+
+26. What do we use to change the spacing between letters?
+	css letter-spacing property
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	css text-transform property. text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+
+28. How do I add a 1px border around my div that is dotted and black?
+	.div {border-width: 1px;} 
+
+29. How do I select everything on the page? 
+	* {}
+
+30. How do I write a comment in CSS?
+	/* */
+
+31. How do I find out what file I am in, when I am using the command line? 
+	$ pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	$ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm fileName.txt This will permanently delete the file.
+
+34. Why should I use version control?
+	It allows you to view the history of changes 
+ 
+35. How often should I commit to github?
+	Aften
+
+36. What is the command we would use to push our repo up to github?
+	$ git push -u origin branch-name
+ 
+37. Walk me through Lambda's git flow. 
+	1) Fork
+	2) Clone repo
+	3) cd command to direct you're copying to
+	4) git clone command + repo url
+	5) cd command to new repo
+	6) git checkout -b 'firstname-lastname' command to create branch
+	7) git add . command to add repo changes
+	8) git commit -m "Your helpful commit message here" command to commit changes with a message
+	9) git push -u origin branch-name command to push changes to repo
+	10) submit pull request
+
